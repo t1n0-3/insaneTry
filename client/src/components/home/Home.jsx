@@ -2,7 +2,7 @@ import { useState } from 'react'
 
 import CatalogCard from '../catalog/CatalogCard'
 
-import './Home.css'
+import './home.css'
 export default function Home() {
     const [sliderValue, setSliderValue] = useState(1)
 
