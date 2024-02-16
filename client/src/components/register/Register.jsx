@@ -1,8 +1,8 @@
 import { useState } from 'react'
 import { useNavigate } from "react-router-dom";
 
-import FirstForm from './formsRegister/firstLayer'
-import SecondForm from './formsRegister/SecondLayer'
+// import FirstForm from './formsRegister/firstLayer'
+// import SecondForm from './formsRegister/SecondLayer'
 import { AuthEndpoints } from '../../CONSTANTS'
 import axios from '../../api/axios'
 import useAuthForm from '../../hook/useAuthForm'
@@ -42,8 +42,8 @@ export default function Register() {
 
     return (
         <>
-            {formNumber === 1 && <FirstForm {...commonProps} />}
-            {formNumber === 2 && <SecondForm {...commonProps} />}
+            {/* {formNumber === 1 && <FirstForm {...commonProps} />}
+            {formNumber === 2 && <SecondForm {...commonProps} />} */}
         </>
     )
 }
