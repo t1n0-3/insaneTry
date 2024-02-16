@@ -1,0 +1,54 @@
+.loginForm {
+    padding: 70px 90px;
+    border-radius: 10px;
+    display: inline-block;
+    background-color: var(--form-color);
+    box-shadow: -3px 21px 15px 4px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+h2 {
+    margin-bottom: 50px;
+    color: var(--text-color);
+}
+
+::placeholder {
+    color: var(--placeHolder);
+}
+
+.lightInput input {
+    border: none;
+    padding: 7px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    background-color: transparent;
+    color: black;
+}
+
+.lightInput input:focus {
+    outline: none;
+    animation: onMenuFocus 1.7s forwards;
+}
+
+
+
+.onLoginSubmit {
+    margin-top: 20px;
+    background-color: var(--btn-bg-color);
+    transition: background-color 0.5s;
+}
+
+.onLoginSubmit:hover {
+    background-color: var(--btn-bg-color);
+}
+
+@keyframes changeOnHover {
+    0% {
+        background-color: rgb(13, 13, 79);
+    }
+}
